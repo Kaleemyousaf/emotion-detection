@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load the trained model
-model = load_model('emotion_detection_model.keras')
+model = load_model('emotion_detection_model.keras1')
 
 # Emotion labels based on your training data
 emotion_labels = ['Angry', 'Disgusted', 'Fearful', 'Happy', 'Sad', 'Surprised', 'Neutral']
